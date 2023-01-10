@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        .flex-container{
+            display: flex;
+            
+            background-color: yellow;
+        
+            
+        }
+        .flex-container > div{
+            width: 200px;
+            margin: 10px;
+            border: 3px ridge brown;
+            background-color: white;
+            
+        }
+        .strong{
+            min-height: 100px;
+            flex: 1 0 0;
+            align-self: flex-end;
+        }
+        .power{
+            min-height: 200px;
+            align-self: center;
+        }
+        .strength{
+            min-height: 300px;
+        align-self:flex-end;
+            
+        }
+        .grit{
+            min-height: 400px
+            align-self: flex-start;
+
+        }
+        .relentless{
+            min: height 500px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="strong">strong</div>
+        <div class="power">power</div>
+        <div class="strenght">strenght</div>
+        <div class="grit">grit</div>
+        <div class="relentless">relentless</div>
+
+    </div>
+</body>
+</html>
